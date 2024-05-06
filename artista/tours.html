@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tour</title>
+    <link rel="stylesheet" href="./tours.css" >
+    <link rel="icon" href="imagenes\lt.ico" >
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+
+</head>
+<body>
+
+ 
+     <div class="sidebar">
+        <img class="rounded-full" src="./imagenes/logolu.jpg" alt="imagen logo">
+        
+        <h2 class="mt-2 text-black underline-offset-4">Angie</h2>
+       <ul>
+
+          <li class="text-3xl mt-3.5"><a href="index.html">Inicio</a></li>
+          <li class="text-3xl mt-3.5"><a href="addalbums.html">Add Albums</a></li>
+          <li class="text-3xl mt-3.5"><a href="addsongs.html">Add Songs</a></li>
+          <li class="text-3xl mt-3.5"><a href="tours.html">Tours</a></li>
+          <li class="text-3xl mt-3.5"><a href="login.html">Log in</a></li>
+          <li class="text-3xl mt-3.5"><a href="otheralbums.html">Other Albums</a></li>
+
+
+       </ul>
+
+     </div>
+      
+     <div id="entradas">
+      <i class="fa-solid fa-ticket fa-lg" ></i>
+      <span id="welcome"></span>
+      </div>
+      
+   <div>
+         <h1 class="font-serif text-1xl ">PROXIMAS FECHAS</h1>
+      </div>
+      
+   
+        
+
+ <div class="contenedor" id="t">
+           
+            <div class="tarjetas" id="t1">
+               <br>
+          <H3>ARGENTINA</H3>
+          <br>
+          <img src="./imagenes/argentina.jpeg" alt="img tour argentina" id="i1">
+          <br>
+          <p>
+            18 de mayo del 2024 a las 20:00hs
+          </p>
+          <br>
+          <div>
+            <button class="text-1xl bg-[#4F44C2] border border-black px-2 mb-2" id="argentina" onclick="getTickets('argentina')">Comprar Ticket </button>
+          </div>
+  
+        </div>
+       
+        <div class="tarjetas" id="t2">
+         <br>
+          <H3>BRAZIL</H3>
+          <br>
+          <img src="./imagenes/brazil.jpeg" alt="img tour brazil " id="i2">
+          <br>
+          <p>
+            13 de octubre del 2024 a las 20:00hs
+          </p>
+          <br>
+          <div>
+            <button class="text-1xl bg-[#4F44C2] border border-black px-2 mb-2" id="brazil" onclick="getTickets('brazil')">Comprar Ticket </button>
+          </div>
+        </div>
+       
+        <div class="tarjetas" id="t3">
+         <br>
+          <H3>ESPAÑA</H3>
+          <br>
+          <img src="./imagenes/españa.jpeg" alt="img tour españa" id="i3">
+          <br>
+          <p>
+            2 de mayo del 2024 a las 20:00hs
+          </p>
+          <br>
+          <div>
+            <button class="text-1xl bg-[#4F44C2] border border-black px-2 mb-2" id="españa" onclick="getTickets('españa')">Comprar Ticket </button>
+          </div>
+       </div>
+        
+       <div class="tarjetas" id="t4">
+         <br>
+          <H3>CHILE</H3>
+          <br>
+          <img src="./imagenes/chile.jpeg" alt="img tour chile" id="i4">
+          <br>
+          <p>
+            4 de diciembre del 2024 a las 20:00hs
+          </p>
+          <br>
+          <div>
+            <button class="text-1xl bg-[#4F44C2] border border-black px-2 mb-2" id="chile" onclick="getTickets('chile')">Comprar Ticket </button>
+          </div>
+        </div>
+       
+
+        
+      <div class="botonvolver" >
+        <a href="./index.html" class="volver">volver</a>
+       </div>
+        
+ </div>
+ <script src="JavaScript\tours.js"></script>
+ 
+
+</body>
+</html>
